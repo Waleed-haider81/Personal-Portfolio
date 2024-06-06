@@ -1,0 +1,27 @@
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  padding: 1rem 0;
+}
+
+.heading>:nth-child(1){
+  color: rgb(8, 67, 216);
+  font-size: 20px;
+  font-weight: 1000;
+}
+.heading>:nth-child(2){
+ 
+  font-weight: 1000;
+}
+.navbar {
+  display: flex;
+  gap: 10px;
+  font-weight: 1000;
+ 
+}
+a{
+text-decoration: none;
+color: black;
+}

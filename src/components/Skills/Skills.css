@@ -1,0 +1,56 @@
+.main-skills{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   gap: 15px;
+   
+}
+.heading-3>h1{
+   margin-bottom: 30px;
+}
+
+
+.container-1{
+   justify-content: center;
+   align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.container-1>div{
+    border: 1px solid rgb(83, 81, 81);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px  rgb(146, 146, 146);
+  
+   width: 310px;
+   padding:  15px;
+   height: 130px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: bold;
+  
+   
+}
+.container-1>div>h1{
+    font-size: 28px;
+}
+.container-1>div>p{
+    color: rgb(123, 123, 123);
+}
+.heading-3>hr{
+    border: 1.5px solid  rgb(134, 134, 134);
+    width: 30%;
+    border-radius: 50%;
+
+}
+.container-1>div>hr{
+    border: 1.5px solid rgb(134, 134, 134);
+    width: 30%;
+    border-radius: 50%;
+
+
+    
+}

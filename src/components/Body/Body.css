@@ -1,0 +1,74 @@
+.body-main{
+    display: flex;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+   background-color: rgb(230, 238, 247);
+ 
+
+ 
+
+}
+.content>h1{
+    color:rgb(8, 67, 216) ;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: min-content;
+   
+  
+}
+.image>img{
+    width: 300px;
+    height: 350px;
+    border: 10px solid  white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px  rgb(146, 146, 146);
+}
+.span-1{
+    display: flex;
+    gap: 5rem;
+    
+    max-width: fit-content;
+}
+
+.Names{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: bold;
+}
+.colons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    max-width: min-content;
+   
+}
+.content>hr{
+    border: 1.5px solid rgb(8, 67, 216);
+    width: 25%;
+    border-radius: 10px;
+}
+.icons>span{
+    color:  rgb(8, 67, 216);
+    background-color: aliceblue;
+    padding: 7px;
+    border-radius: 5px;
+}
+

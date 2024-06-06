@@ -1,0 +1,68 @@
+.div-1 > div {
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px  rgb(146, 146, 146);
+ 
+  padding: 10px;
+}
+.div-2 > div {
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px  rgb(146, 146, 146);
+
+  padding: 10px;
+}
+.div-1 > div > p {
+  text-align: center;
+  margin-top: 10px;
+
+
+ 
+}
+.div-2 > div > p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.div-1 > div > img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.div-2 > div > img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.div-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Expert-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Expert-main > div:nth-child(1) {
+  margin-bottom: 1.5rem;
+}
+.Expert-main > div:nth-child(1)>hr{
+
+    border: 1.5px solid black;
+    width: 30%;
+    margin-bottom: 5px;
+    border-radius: 30%;
+}

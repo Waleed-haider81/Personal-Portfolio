@@ -1,0 +1,34 @@
+.div1{
+    border: 1px solid gray;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+  
+    flex-direction: column;
+    gap: 14px;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px  rgb(146, 146, 146);
+}
+
+.experience-main>h1{
+    text-align: center;
+}
+.experience-main{
+    gap: 2rem;
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(230, 238, 247);
+}
+
+.main-content{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+}
